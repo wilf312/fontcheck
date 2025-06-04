@@ -1,0 +1,15 @@
+{
+  "name": "hoge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fontkit": "^2.0.4"
+  }
+}
