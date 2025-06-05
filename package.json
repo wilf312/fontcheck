@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/fontkit": "^2.0.8",
     "fontkit": "^2.0.4"
   }
 }

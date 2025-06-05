@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "compile": "deno compile --output fontCheck --allow-read main.ts",
+    "check": "deno run --allow-read main.ts",
+    "dev": "deno run --watch -A main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/fontkit": "npm:@types/fontkit@^2.0.8",
+    "fontkit": "npm:fontkit@^2.0.4"
+  }
+}
